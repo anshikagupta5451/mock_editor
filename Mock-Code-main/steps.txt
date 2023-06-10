@@ -1,0 +1,25 @@
+1. Create the homepage: form with inputs roomid, username and join button
+
+2. Add the funcitonality of unique id generations using the package "uuid" and v4 from it 
+
+3. Make the inputs "controlled inputs" so uuid generated as well as user input id are stored in state variable
+
+4. Install "react-hot-toast" for the toast when a new room is made.
+    1. Toaster is a component that creates the container for the toasts
+    2. It needs to be declared outsite of BrowserRouter so that it is accessible everywhere.
+
+5. Validate the form when joining the room by clicking the join button
+
+6. Redirect when info filled: using the useNavigator hook from the react-router-dom.
+    navigate = useNavigator()
+    now navigate( path, obj{states to be transferred to new page})
+
+7. Also add the funcitonality of listening to the "enter" key when pressed to redirect and validate.
+
+
+---------------- EDITOR PAGE ----------------
+
+8. Create the basic editor page setup in two parts 
+
+9. Create a file for the clients in the room
+    1. Use react-avatar package to create avatars for each client connected.
